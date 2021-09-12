@@ -33,7 +33,7 @@ def summarize(url):
         paras.append(sentence)
 
     #print(paras[0])
-    myText = open(f'{article_header[0:4]}.txt','w')
+    myText = open(f'{article_header}.txt','w')
     myText.write(f'{article_header}'+ '\n'+'\n')
     # myString = 'Type your string here'
     for para in paras:
